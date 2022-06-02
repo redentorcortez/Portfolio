@@ -1,0 +1,13 @@
+#home{
+    display: flex;
+    flex-direction: column;
+}
+.headings{
+    font-size: 3rem;
+    text-align: center;
+}
+.main{
+    top: 50%;
+}
+
+

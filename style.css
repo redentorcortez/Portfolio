@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.uppertab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.uppertab ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px ;
+}
+.uppertab ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.uppertab ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.uppertab ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+
+.home{
+    display: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    color: white;
+    
+}
+.home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('Pictures/denden.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; 
+    top: 50%;
+    left: 35%;
+}
+.headings{
+    font-family: century;
+    font-size: 5rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+.btn{
+    padding: 10px 10px ;
+    background-color: transparent;
+    border: 1px solid white;
+    color: snow;
+    outline: none;
+    transition: .6s ease;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: snow;
+    color: black;
+    box-shadow: 0 0 5px snow, 0 0 10px snow, 0 0 5px snow;
+    font-weight: bold;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #eae8e4;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 800px;
+    height: 700px ;
+    margin-left: 2%;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 11px;
+}
+#intro h2{
+    font-size: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+#intro p{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.gallery1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery1 img{
+    width: 1000px;
+    height: 600px;
+    margin: 11px;
+}
+.gallery1 p{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+.gallery2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery2 img{
+    width: 1500px;
+    height: 600px;
+    margin: 11px;
+}
+.gallery3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery3 img{
+    width: 1000px;
+    height: 500px;
+    margin: 11px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 11px;
+}
+
+.Pheadings{
+    font-family: century;
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+.P1{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cg{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    font-family: century;
+}
+
+.proj{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #eae8e4;
+}
+
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #eae8e4;
+}
+.PRheadings{
+    font-family: century;
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+.PRbtn{
+    margin: 20px 0px;
+    padding: 10px 10px ;
+    background-color: #eae8e4;
+    border: 1px solid black;
+    color: black;
+    outline: none;
+    transition: .6s ease;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+.PRbtn:hover{
+    cursor: pointer;
+    background-color: #eae8e4;
+    color: black;
+    box-shadow: 0 0 5px #eae8e4, 0 0 10px #eae8e4, 0 0 5px #eae8e4;
+    font-weight: bold;
+}
+
+.P1 p{
+    font-size: 1.5rem;
+}
